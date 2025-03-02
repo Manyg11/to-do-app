@@ -1,6 +1,6 @@
 import './TaskColumn.css';
 import React from 'react';
-import { Droppable, Draggable } from 'react-beautiful-dnd';
+import { Droppable, Draggable } from '@hello-pangea/dnd';
 
 
 function TaskColumn({ title, tasks, droppableId, onDelete }) {

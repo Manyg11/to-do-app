@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import TaskColumn from './TaskColumns';
 import './App.css';
-import { DragDropContext } from 'react-beautiful-dnd';
+import { DragDropContext } from '@hello-pangea/dnd';
 
 
 function App() {
